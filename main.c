@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include "bingoBoard.c"
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -16,6 +16,13 @@ int main(int argc, char *argv[]) {
 	printf("==============================\n\n\n");
 	
 	
+	
+	bingo_init();
+	bingo_print();
+	bingo_inputNum(24);
+	bingo_print();
+	
+	
 	//generate numbers
 	//initialize bingo boards
 	//while (game is not end)
@@ -23,7 +30,9 @@ int main(int argc, char *argv[]) {
 	{
 		//bingo board printing
 		//print no. of completed lines
-		//sele
+		//select a proper number
+		//put the number on the board
+		
 		}
 	*/
 	
